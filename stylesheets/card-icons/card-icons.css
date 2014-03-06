@@ -1,0 +1,74 @@
+.card-icon {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 60px;
+  text-indent: -9999px;
+  background-image: url(card-icons.png);
+  background-repeat: no-repeat;
+  background-size: 320px 420px;
+}
+
+.card-icon.card-icon_HK { background-position:    0px    0px; }
+.card-icon.card-icon_HD { background-position:  -40px    0px; }
+.card-icon.card-icon_HC { background-position:  -80px    0px; }
+.card-icon.card-icon_HB { background-position: -120px    0px; }
+.card-icon.card-icon_H1 { background-position: -160px    0px; }
+.card-icon.card-icon_H2 { background-position: -200px    0px; }
+.card-icon.card-icon_H3 { background-position: -240px    0px; }
+.card-icon.card-icon_H4 { background-position: -280px    0px; }
+
+.card-icon.card-icon_TK { background-position:    0px  -60px; }
+.card-icon.card-icon_TD { background-position:  -40px  -60px; }
+.card-icon.card-icon_TC { background-position:  -80px  -60px; }
+.card-icon.card-icon_TB { background-position: -120px  -60px; }
+.card-icon.card-icon_TX { background-position: -160px  -60px; }
+.card-icon.card-icon_T9 { background-position: -200px  -60px; }
+.card-icon.card-icon_T8 { background-position: -240px  -60px; }
+.card-icon.card-icon_T7 { background-position: -280px  -60px; }
+
+.card-icon.card-icon_KK { background-position:    0px -120px; }
+.card-icon.card-icon_KD { background-position:  -40px -120px; }
+.card-icon.card-icon_KC { background-position:  -80px -120px; }
+.card-icon.card-icon_KB { background-position: -120px -120px; }
+.card-icon.card-icon_K1 { background-position: -160px -120px; }
+.card-icon.card-icon_K2 { background-position: -200px -120px; }
+.card-icon.card-icon_K3 { background-position: -240px -120px; }
+.card-icon.card-icon_K4 { background-position: -280px -120px; }
+
+.card-icon.card-icon_PK { background-position:    0px -180px; }
+.card-icon.card-icon_PD { background-position:  -40px -180px; }
+.card-icon.card-icon_PC { background-position:  -80px -180px; }
+.card-icon.card-icon_PB { background-position: -120px -180px; }
+.card-icon.card-icon_PX { background-position: -160px -180px; }
+.card-icon.card-icon_P9 { background-position: -200px -180px; }
+.card-icon.card-icon_P8 { background-position: -240px -180px; }
+.card-icon.card-icon_P7 { background-position: -280px -180px; }
+
+.card-icon.card-icon_20 { background-position:    0px -240px; }
+.card-icon.card-icon_19 { background-position:  -40px -240px; }
+.card-icon.card-icon_18 { background-position:  -80px -240px; }
+.card-icon.card-icon_17 { background-position: -120px -240px; }
+.card-icon.card-icon_16 { background-position: -160px -240px; }
+.card-icon.card-icon_15 { background-position: -200px -240px; }
+.card-icon.card-icon_14 { background-position: -240px -240px; }
+.card-icon.card-icon_13 { background-position: -280px -240px; }
+
+.card-icon.card-icon_12 { background-position:    0px -300px; }
+.card-icon.card-icon_11 { background-position:  -40px -300px; }
+.card-icon.card-icon_10 { background-position:  -80px -300px; }
+.card-icon.card-icon_09 { background-position: -120px -300px; }
+.card-icon.card-icon_08 { background-position: -160px -300px; }
+.card-icon.card-icon_07 { background-position: -200px -300px; }
+.card-icon.card-icon_06 { background-position: -240px -300px; }
+.card-icon.card-icon_05 { background-position: -280px -300px; }
+
+.card-icon.card-icon_04 { background-position:    0px -360px; }
+.card-icon.card-icon_03 { background-position:  -40px -360px; }
+.card-icon.card-icon_02 { background-position:  -80px -360px; }
+.card-icon.card-icon_01 { background-position: -120px -360px; }
+.card-icon.card-icon_21 { background-position: -160px -360px; }
+.card-icon.card-icon_22 { background-position: -200px -360px; }
+
+
+

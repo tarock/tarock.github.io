@@ -1,0 +1,18 @@
+.navigation {
+  display: none;
+}
+
+.container {
+  position: static;
+  overflow: visible;
+  margin:0;
+}
+
+.lesson {
+  page-break-after: always;
+  margin:0;
+}
+
+.lesson .print-section {
+  page-break-inside: avoid;
+}

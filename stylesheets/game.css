@@ -1,0 +1,213 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: 100%;
+  background: #afc3d6;
+  position: relative;
+}
+
+.canvas {
+  top: 10px;
+  left: 10px;
+  bottom: 60px;
+  right: 10px;
+  display: block;
+  position: absolute;
+  background: #fff;
+  overflow: hidden;
+}
+
+.player {
+  position: absolute;
+  width: 524px;
+  height: 60px;
+  /*background: rgba(255,0,0,0.5);*/
+}
+
+.player_0 {
+  bottom: 5px;
+  left: 50%;
+  margin-left: -262px;
+}
+
+.player_1 {
+  -webkit-transform:rotate(-90deg);
+  left: 100%;
+  top: 50%;
+  margin-top: -30px;
+  margin-left: -297px;
+}
+
+.player_2 {
+  left: 50%;
+  top: 5px;
+  -webkit-transform:rotate(180deg);
+  margin-left: -262px;
+}
+
+.player_3 {
+  -webkit-transform:rotate(90deg);
+  left: 0%;
+  top: 50%;
+  margin-top: -30px;
+  margin-left: -225px;
+}
+
+.hand {
+  text-align: center;
+}
+
+.hand .card,
+.stack-half .card {
+  margin-right: 4px;
+}
+
+.hand .card:last-child,
+.stack-half .card:last-child {
+  margin-right: 0;
+}
+
+.first-hand .hand {
+  background:rgba(255,0,0,.2);
+}
+
+.stack {
+  position: absolute;
+  float: left;
+  left: 50%;
+  top: 50%;
+  margin-left: -133px;
+  margin-top: -30px;
+}
+
+.stack-half {
+  float:left;
+  margin-right:10px;
+}
+
+.stack-half:last-of-type {
+  margin-right:0;
+}
+
+.card {
+  display: inline-block;
+  width: 40px;
+  height: 60px;
+  background-size: 100%;
+  background-image:url(card-icons/CB@2x.png);
+}
+
+.stack-half.checked .card,
+.card.checked {
+  width:40px;
+  height:60px;
+  border:3px solid gold;
+  margin-top:-3px;
+  margin-left:-3px;
+  margin-bottom:-3px;
+  margin-right:1px;
+  box-sizing:content-box;
+  border-radius:10px;
+}
+
+.stack-half.checked .card:last-child,
+.hand .card.checked:last-child,
+.stack-half .card.checked:last-child {
+  margin-right:-3px;
+}
+
+.visible .card.card_HK { background-image:url(card-icons/HK@2x.png); }
+.visible .card.card_HD { background-image:url(card-icons/HD@2x.png); }
+.visible .card.card_HC { background-image:url(card-icons/HC@2x.png); }
+.visible .card.card_HB { background-image:url(card-icons/HB@2x.png); }
+.visible .card.card_H1 { background-image:url(card-icons/H1@2x.png); }
+.visible .card.card_H2 { background-image:url(card-icons/H2@2x.png); }
+.visible .card.card_H3 { background-image:url(card-icons/H3@2x.png); }
+.visible .card.card_H4 { background-image:url(card-icons/H4@2x.png); }
+.visible .card.card_TK { background-image:url(card-icons/TK@2x.png); }
+.visible .card.card_TD { background-image:url(card-icons/TD@2x.png); }
+.visible .card.card_TC { background-image:url(card-icons/TC@2x.png); }
+.visible .card.card_TB { background-image:url(card-icons/TB@2x.png); }
+.visible .card.card_TX { background-image:url(card-icons/TX@2x.png); }
+.visible .card.card_T9 { background-image:url(card-icons/T9@2x.png); }
+.visible .card.card_T8 { background-image:url(card-icons/T8@2x.png); }
+.visible .card.card_T7 { background-image:url(card-icons/T7@2x.png); }
+.visible .card.card_KK { background-image:url(card-icons/KK@2x.png); }
+.visible .card.card_KD { background-image:url(card-icons/KD@2x.png); }
+.visible .card.card_KC { background-image:url(card-icons/KC@2x.png); }
+.visible .card.card_KB { background-image:url(card-icons/KB@2x.png); }
+.visible .card.card_K1 { background-image:url(card-icons/K1@2x.png); }
+.visible .card.card_K2 { background-image:url(card-icons/K2@2x.png); }
+.visible .card.card_K3 { background-image:url(card-icons/K3@2x.png); }
+.visible .card.card_K4 { background-image:url(card-icons/K4@2x.png); }
+.visible .card.card_PK { background-image:url(card-icons/PK@2x.png); }
+.visible .card.card_PD { background-image:url(card-icons/PD@2x.png); }
+.visible .card.card_PC { background-image:url(card-icons/PC@2x.png); }
+.visible .card.card_PB { background-image:url(card-icons/PB@2x.png); }
+.visible .card.card_PX { background-image:url(card-icons/PX@2x.png); }
+.visible .card.card_P9 { background-image:url(card-icons/P9@2x.png); }
+.visible .card.card_P8 { background-image:url(card-icons/P8@2x.png); }
+.visible .card.card_P7 { background-image:url(card-icons/P7@2x.png); }
+.visible .card.card_20 { background-image:url(card-icons/20@2x.png); }
+.visible .card.card_19 { background-image:url(card-icons/19@2x.png); }
+.visible .card.card_18 { background-image:url(card-icons/18@2x.png); }
+.visible .card.card_17 { background-image:url(card-icons/17@2x.png); }
+.visible .card.card_16 { background-image:url(card-icons/16@2x.png); }
+.visible .card.card_15 { background-image:url(card-icons/15@2x.png); }
+.visible .card.card_14 { background-image:url(card-icons/14@2x.png); }
+.visible .card.card_13 { background-image:url(card-icons/13@2x.png); }
+.visible .card.card_12 { background-image:url(card-icons/12@2x.png); }
+.visible .card.card_11 { background-image:url(card-icons/11@2x.png); }
+.visible .card.card_10 { background-image:url(card-icons/10@2x.png); }
+.visible .card.card_09 { background-image:url(card-icons/09@2x.png); }
+.visible .card.card_08 { background-image:url(card-icons/08@2x.png); }
+.visible .card.card_07 { background-image:url(card-icons/07@2x.png); }
+.visible .card.card_06 { background-image:url(card-icons/06@2x.png); }
+.visible .card.card_05 { background-image:url(card-icons/05@2x.png); }
+.visible .card.card_04 { background-image:url(card-icons/04@2x.png); }
+.visible .card.card_03 { background-image:url(card-icons/03@2x.png); }
+.visible .card.card_02 { background-image:url(card-icons/02@2x.png); }
+.visible .card.card_01 { background-image:url(card-icons/01@2x.png); }
+.visible .card.card_21 { background-image:url(card-icons/21@2x.png); }
+.visible .card.card_22 { background-image:url(card-icons/22@2x.png); }
+
+.bonus-selection,
+.game-selection {
+  display: none;
+  position: absolute;
+  top: 50px;
+  width: 200px;
+  left: 50%;
+  margin-left: -100px;
+}
+
+.bonus-selection ul,
+.game-selection ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bonus-selection ul li,
+.game-selection ul li {
+  margin-bottom: 7px;
+}
+
+.bonus-selection ul li:last-child,
+.game-selection ul li:last-child {
+  margin-bottom: 0;
+}
+
+.bonus-selection .btn,
+.game-selection .btn {
+  width: 100%;
+}
+
+.game-options {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  height: 40px;
+}

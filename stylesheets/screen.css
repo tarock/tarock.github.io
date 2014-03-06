@@ -1,0 +1,189 @@
+@import "fonts/fonts.css";
+
+h1, h2, h3, h4, h5, h6, .table th {
+  font-weight: normal;
+  font-family: "Alegreya";
+  margin-top:0;
+}
+
+body {
+  width: 940px;
+  margin: 0 auto;
+  /*font-family: "Vollkorn", "Georgia", "Times", serif;*/
+  font-family: "Alegreya";
+  /*background:url(background.png) left top repeat;*/
+  /*background:url(grid.png) center top repeat-y;*/
+  background: #afc3d6;
+}
+
+h1 {
+  font-family: "Alegreya-SC";
+}
+
+.btn {
+  font-family: "Alegreya-SC";
+}
+
+.container {
+  position:absolute;
+  top:0;
+  left:50%;
+  bottom:0;
+  width:860px;
+  /*background:rgba(100,100,100,1);*/
+  background:rgba(180,180,180,1);
+  background:#F3F3F3;
+  margin-left:-320px;
+  overflow:auto;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.navigation {
+  position:fixed;
+  list-style: none;
+  padding: 0;
+  margin:0;
+  width:140px;
+}
+
+.navigation .nav {
+  float:none;
+  margin:0;
+}
+
+.navigation .nav li {
+  /*float:none;*/
+  float:none;
+  clear:both;
+  display:block;
+  line-height: 1.5em;
+  margin-bottom: .5em;
+  background:rgba(255,255,255,1);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.navigation .nav li:last-child {
+  margin-bottom:0;
+}
+
+.navigation li a {
+  display: block;
+  border-right: 5px solid rgba(0,0,0,.05);
+}
+
+.navigation li.active a {
+  /*border-color: rgba(0,0,0,.2);*/
+  border-color: #6d91b0;
+  background-color: #e1e8ef !important;
+  box-shadow: none !important;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.lesson {
+  /*margin-left:160px;*/
+  margin:0 20px 20px;
+  background:rgba(255,255,255,1);
+
+  /*background:rgba(0,0,0,.1);*/
+  /*min-height: 800px;*/
+  /*border:1px solid #ccc;*/
+  padding:20px;
+}
+
+.lesson:first-of-type {
+  margin-top:20px;
+}
+
+.table {
+  width:100%;
+  margin-bottom: 1.5em;
+}
+
+.table.table_small {
+  width:75%;
+}
+
+.table.table_small .col-01 {
+  width: 18.75%;
+}
+
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 0;
+  padding:15px 0;
+
+  border-style:solid;
+  border-color: #404040;
+  border-width:0 1px 1px 0;
+  vertical-align: middle !important;
+}
+
+.table th:first-child,
+.table td:first-child {
+  border-left-width: 1px !important;
+}
+
+.table tr:first-child td,
+.table tr:first-child th {
+  border-top-width: 1px;
+  border-color: #404040 !important;
+}
+
+.table th {
+  background: rgba(0,0,0,.2) !important;
+  border-style: solid !important;
+  border-color: #404040 !important;
+  border-width: 0 1px 1px 0 !important;
+  text-align: center;
+}
+
+table.table thead > tr:first-child > th {
+  border-top:1px solid #404040 !important;
+}
+
+.table .col-01 {
+  width:25%
+}
+
+.table .col-02 {
+  width: 12.5%;
+}
+
+.table tr td.col_empty-top    { border-top-width: 0px !important; }
+.table tr td.col_empty-left   { border-left-width: 0px !important; }
+.table tr td.col_empty-bottom { border-bottom-width: 0px !important; }
+
+.table td img + img { margin-left:2px;}
+.table td img.image-row { margin-top: 5px; }
+
+.table td.cards-in-row img {
+  display:inline-block;
+  float:left;
+  margin:0 3px 0 0;
+}
+
+.table td.cards-in-row img:last-child {
+  margin-right:0;
+}
+
+.label {
+  font-weight:normal;
+}
+
+.card-fan {
+  margin-top:.5em;
+}
+
+.lessons-game {
+  margin:.5em 0;
+}
